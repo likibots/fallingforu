@@ -7,16 +7,16 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("28933540"))
+API_HASH = getenv("e862babec20722cd3060288021d6397b")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7576323434:AAFQE5FnCjAAGQx3X3gyHyxSj_4RJzFaeLE")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "xteam_clonebot")
+BOT_USERNAME = getenv("BOT_USERNAME", "@Falling_for_u_bot")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("mongodb+srv://likimusic:likhith@8123@cluster0.tn8iknx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 240))
 
@@ -24,16 +24,16 @@ API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", None) # youtube song api key, get it from https://t.me/RahulTC
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ))
+LOGGER_ID = int(getenv("-1002889415304", ))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", ))
+OWNER_ID = int(getenv(" 5867783630", ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-AAVj82WgXWW50cpSvpzZoKGxrZgEJQQ32nqFA4sx1Vow_wI3k4MANOUJ")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_kannada_chatting_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_kannada_chatting_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dpzchannel143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kannada_chatting0")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -67,7 +67,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "AQG5faQAY_qBDCisdW6v5ZrFT9xfa5kRWzXVWZFK51ETa7SNE9htxj381537pwrmGxumpTgrCJJMwQBjHEiJnwyXbxWw2M6xWeJI_lR90qCCm78SI38wLzciIXjZ8I1oUvhPp5HBihfFqpo-V-oxpkR2nWfLh3jHf89Z3jh4e_mmiiMw7nhyLbtew80EW48_97Jq-k-Bsb7BIL3OaehrcZewQkKeEj7jKNP78oh1knkZog7Lew9WWUJWBjVfsW89Hm01FeC7Gj0Mg-F6W8lkd0VnqhUHNXNnmf5_EUNk0JuzewzhQA4Jpt4QF2ucOYNMSHt3oPcj7kvT54vnOia4vrIVsNqg7gAAAAG0m17KAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -109,13 +109,13 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 
 
 if SUPPORT_CHANNEL:
-    if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
+    if not re.match("(?:http|https)://", "https://t.me/dpzchannel143"):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
 
 if SUPPORT_CHAT:
-    if not re.match("(?:http|https)://", SUPPORT_CHAT):
+    if not re.match("(?:http|https)://", "https://t.me/kannada_chatting0"):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
 )
